@@ -107,6 +107,7 @@ class DB_CRUD_ops(object):
             
         finally:
             db_con.close()
+            print("db connection closed")
             
     # retrieves the price of a stock symbol from the stocks table
     # Example: get_stock_price('MSFT') will result into executing
