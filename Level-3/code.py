@@ -29,6 +29,7 @@ class TaxPayer:
         
         # builds path
         base_dir = os.path.dirname(os.path.abspath(__file__))
+        print(base_dir)
         prof_picture_path = os.path.normpath(os.path.join(base_dir, path))
     
         with open(prof_picture_path, 'rb') as pic:
